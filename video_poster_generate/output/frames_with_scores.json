@@ -1,0 +1,232 @@
+[
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_44.jpg",
+        "text_similar_score": 0.8549,
+        "quality_score": 0.2803
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_45.jpg",
+        "text_similar_score": 0.759,
+        "quality_score": 0.2904
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_46.jpg",
+        "text_similar_score": 0.7309,
+        "quality_score": 0.3081
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_42.jpg",
+        "text_similar_score": 0.7409,
+        "quality_score": 0.2719
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_43.jpg",
+        "text_similar_score": 0.7298,
+        "quality_score": 0.2818
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_41.jpg",
+        "text_similar_score": 1.0,
+        "quality_score": 0.2301
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_40.jpg",
+        "text_similar_score": 0.2016,
+        "quality_score": 0.2442
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_27.jpg",
+        "text_similar_score": 0.3607,
+        "quality_score": 0.3017
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_33.jpg",
+        "text_similar_score": 0.8385,
+        "quality_score": 0.2687
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_4.jpg",
+        "text_similar_score": 0.1762,
+        "quality_score": 0.2963
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_5.jpg",
+        "text_similar_score": 0.1476,
+        "quality_score": 0.331
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_32.jpg",
+        "text_similar_score": 0.7447,
+        "quality_score": 0.2527
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_26.jpg",
+        "text_similar_score": 0.0848,
+        "quality_score": 0.363
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_30.jpg",
+        "text_similar_score": 0.1893,
+        "quality_score": 0.2658
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_24.jpg",
+        "text_similar_score": 0.1264,
+        "quality_score": 0.2427
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_18.jpg",
+        "text_similar_score": 0.0,
+        "quality_score": 0.1776
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_7.jpg",
+        "text_similar_score": 0.8476,
+        "quality_score": 0.2508
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_6.jpg",
+        "text_similar_score": 0.1214,
+        "quality_score": 0.4454
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_19.jpg",
+        "text_similar_score": 0.2656,
+        "quality_score": 0.3377
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_25.jpg",
+        "text_similar_score": 0.2567,
+        "quality_score": 0.3031
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_31.jpg",
+        "text_similar_score": 0.2124,
+        "quality_score": 0.2468
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_35.jpg",
+        "text_similar_score": 0.7677,
+        "quality_score": 0.2456
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_21.jpg",
+        "text_similar_score": 0.376,
+        "quality_score": 0.3473
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_2.jpg",
+        "text_similar_score": 0.4261,
+        "quality_score": 0.2524
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_3.jpg",
+        "text_similar_score": 0.3802,
+        "quality_score": 0.2661
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_20.jpg",
+        "text_similar_score": 0.2829,
+        "quality_score": 0.3232
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_34.jpg",
+        "text_similar_score": 0.8247,
+        "quality_score": 0.2638
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_22.jpg",
+        "text_similar_score": 0.1236,
+        "quality_score": 0.2424
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_36.jpg",
+        "text_similar_score": 0.2768,
+        "quality_score": 0.2189
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_1.jpg",
+        "text_similar_score": 0.567,
+        "quality_score": 0.3802
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_37.jpg",
+        "text_similar_score": 0.2007,
+        "quality_score": 0.2442
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_23.jpg",
+        "text_similar_score": 0.1318,
+        "quality_score": 0.2367
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_12.jpg",
+        "text_similar_score": 0.3773,
+        "quality_score": 0.3286
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_13.jpg",
+        "text_similar_score": 0.3612,
+        "quality_score": 0.3608
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_11.jpg",
+        "text_similar_score": 0.3665,
+        "quality_score": 0.307
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_39.jpg",
+        "text_similar_score": 0.2884,
+        "quality_score": 0.2836
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_38.jpg",
+        "text_similar_score": 0.3437,
+        "quality_score": 0.3533
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_10.jpg",
+        "text_similar_score": 0.2529,
+        "quality_score": 0.2479
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_28.jpg",
+        "text_similar_score": 0.3783,
+        "quality_score": 0.2333
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_14.jpg",
+        "text_similar_score": 0.4031,
+        "quality_score": 0.3445
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_15.jpg",
+        "text_similar_score": 0.1991,
+        "quality_score": 0.2601
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_29.jpg",
+        "text_similar_score": 0.3652,
+        "quality_score": 0.2361
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_17.jpg",
+        "text_similar_score": 0.1656,
+        "quality_score": 0.1895
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_8.jpg",
+        "text_similar_score": 0.8155,
+        "quality_score": 0.2593
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_9.jpg",
+        "text_similar_score": 0.308,
+        "quality_score": 0.2235
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_16.jpg",
+        "text_similar_score": 0.1369,
+        "quality_score": 0.2993
+    }
+]

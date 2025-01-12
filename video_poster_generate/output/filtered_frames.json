@@ -1,0 +1,27 @@
+[
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_1.jpg",
+        "text_similar_score": 0.567,
+        "quality_score": 0.3802
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_46.jpg",
+        "text_similar_score": 0.7309,
+        "quality_score": 0.3081
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_44.jpg",
+        "text_similar_score": 0.8549,
+        "quality_score": 0.2803
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_45.jpg",
+        "text_similar_score": 0.759,
+        "quality_score": 0.2904
+    },
+    {
+        "image_dir": "video_poster_generate/output/candidate_frames/poster_33.jpg",
+        "text_similar_score": 0.8385,
+        "quality_score": 0.2687
+    }
+]
