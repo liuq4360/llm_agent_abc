@@ -1,13 +1,13 @@
 import gradio as gr
 import sys
 sys.path.append('./')
-from agent_adviser.configs.model_config import SEARCH_RESULTS_NUM, SIMILARITY_THRESHOLD
+from agent_adviser.configs.model_config import SEARCH_RESULTS_NUM
 from agent_adviser.serving.search_pipeline import search_api
 from agent_adviser.utils.prompt_build import build_llm_prompt
 from agent_adviser.serving.nlu.semantics_classify import semantics_classify
 from agent_adviser.serving.chat.streaming_chat import deepseek_chat
-from agent_adviser.utils.results_cache import get_json_from_redis, store_json_to_redis
-from agent_adviser.utils.little_tools import find_most_similar
+from agent_adviser.utils.results_cache import store_json_to_redis
+from agent_adviser.serving.recall.faq_recall_api import faq_recall
 
 
 def chat(user_input, info_display, history):
@@ -17,14 +17,13 @@ def chat(user_input, info_display, history):
     yield info_display, info_display, history, "", tmp_btn  # 清空输入框，立即更新界面
 
     prompt = user_input
-    cache_dict = get_json_from_redis()
 
-    index, text, score = find_most_similar(str(user_input), list(cache_dict.keys()))
-    if score > SIMILARITY_THRESHOLD:  # 当相似等分大于此值时，认为这个问题已经被回答过了，可以直接从缓存中返回结果了。
-        response_content = cache_dict[text]
+    faq_res = faq_recall(str(user_input))
+
+    if faq_res:  # 当相似等分大于此值时，认为这个问题已经被回答过了，可以直接从缓存中返回结果了。
         # **第四步：记录完整的AI回答**
-        info_display[-1] = (user_input, response_content)  # 确保完整记录
-        history[-1] = (prompt, response_content)  # 更新历史记录
+        info_display[-1] = (user_input, faq_res)  # 确保完整记录
+        history[-1] = (prompt, faq_res)  # 更新历史记录
         tmp_btn = gr.Button("👍 赞同", elem_id="like_button", visible=False)
         yield info_display, info_display, history, "", tmp_btn  # 清空输入框
 
